@@ -7,15 +7,18 @@ const IndexPage = () => (
     <section className="page-section about-heading">
       <div className="container">
         <div className="img-fluid rounded about-heading-img mb-3 mb-lg-0">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6647.788586581568!2d-112.0888933314553!3d33.58209373676824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b6db05e337843%3A0xdd48ab4660b212a!2s906%20W%20Peoria%20Ave%2C%20Phoenix%2C%20AZ%2085029!5e0!3m2!1sen!2sus!4v1587552375124!5m2!1sen!2sus"
-            width="1200"
-            height="450"
-            frameborder="0"
-            allowfullscreen=""
-            aria-hidden="false"
-            tabindex="0"
-          ></iframe>
+          <div className="iframe-container">
+            {' '}
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6647.788586581568!2d-112.0888933314553!3d33.58209373676824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872b6db05e337843%3A0xdd48ab4660b212a!2s906%20W%20Peoria%20Ave%2C%20Phoenix%2C%20AZ%2085029!5e0!3m2!1sen!2sus!4v1587552375124!5m2!1sen!2sus"
+              width="1200"
+              height="450"
+              frameborder="0"
+              allowfullscreen=""
+              aria-hidden="false"
+              tabindex="0"
+            ></iframe>
+          </div>
         </div>
 
         <div className="text-center">
