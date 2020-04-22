@@ -13,6 +13,10 @@ const IndexPage = () => (
                 <span className="section-heading-upper">Page not found</span>
                 <span className="section-heading-lower">Not a valid URL</span>
               </h2>
+              <p>
+                If you are seeing this page, congratulations! Something has gone
+                terribly wrong.
+              </p>
             </div>
           </div>
         </div>

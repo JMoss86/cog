@@ -2,14 +2,14 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import about from '../assets/images/about1.jpg';
+import about1 from '../assets/images/about-01.jpg';
 const IndexPage = () => (
-  <Layout activeLink="about">
+  <Layout activeLink="about-us">
     <section className="page-section about-heading">
       <div className="container">
         <img
           className="img-fluid rounded about-heading-img mb-3 mb-lg-0"
-          src={about}
+          src={about1}
           alt=""
         />
         <div className="about-heading-content">
@@ -25,6 +25,15 @@ const IndexPage = () => (
                   </span>
                 </h2>
                 <p>
+                  For many years we have been working in our community, our
+                  city, state and also internationally to spread the good news
+                  of God’s love and plan of salvation through Jesus Christ, His
+                  Son. We are a Spirit filled, bible based, outwardly focused
+                  and worshiping community. We also work closely with our sister
+                  congregation, Pacto de Gracia to serve the growing Hispanic
+                  community of our city.
+                  <br />
+                  <br />
                   Covenant of Grace is a unique church with a fascinating
                   history and an exciting future. We have been a stable and
                   transforming influence in our community and state for over

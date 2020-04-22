@@ -1,11 +1,11 @@
 .intro {
   position: relative;
   @media (min-width: 992px) {
-    .intro-img {
+    .intro-img1 {
       width: 75%;
       float: right;
     }
-    .intro-text {
+    .intro-text1 {
       left: 0;
       width: 60%;
       margin-top: 3rem;
@@ -18,9 +18,28 @@
       }
     }
   }
-  @media (min-width: 1200px) {
-    .intro-text {
-      width: 45%;
+  .intro-img2 {
+    width: 75%;
+    float: left;
+  }
+  .intro-text2 {
+    right: 0;
+    width: 60%;
+    margin-top: 3rem;
+    position: absolute;
+    .intro-button {
+      width: 100%;
+      left: 0;
+      position: absolute;
+      bottom: -2rem;
     }
+  }
+}
+@media (min-width: 1200px) {
+  .intro-text1 {
+    width: 45%;
+  }
+  .intro-text2 {
+    width: 45%;
   }
 }

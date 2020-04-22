@@ -9,13 +9,13 @@ const IndexPage = () => (
       <div className="container">
         <div className="intro">
           <img
-            className="intro-img img-fluid mb-3 mb-lg-0 rounded"
+            className="intro-img1 img-fluid mb-3 mb-lg-0 rounded"
             src={intro}
             alt=""
           />
-          <div className="intro-text left-0 text-center bg-faded p-5 rounded">
+          <div className="intro-text1 left-0 text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
-              {/*              <span className="section-heading-upper"></span>*/}
+              {/*<span className="section-heading-upper"></span>*/}
               <span className="section-heading-lower">In Faith We Gather</span>
             </h2>
             <p className="mb-3 text-justify">
@@ -29,8 +29,7 @@ const IndexPage = () => (
             {/*<div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="/#">
                 Visit Us Today!
-              </a>
-</div>*/}
+              </a></div>*/}
           </div>
         </div>
       </div>
@@ -42,18 +41,23 @@ const IndexPage = () => (
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner text-center rounded">
               <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">Our Mission</span>
-                {/*<span className="section-heading-lower">To You</span>*/}
+                <span className="section-heading-lower">
+                  Sunday Live Stream
+                </span>
+                <span className="section-heading-upper">
+                  Come worship with us, wherever you are!
+                </span>
               </h2>
-              <p className="mb-0 text-justify">
-                For many years we have been working in our community, our city,
-                state and also internationally to spread the good news of God’s
-                love and plan of salvation through Jesus Christ, His Son. We are
-                a Spirit filled, bible based, outwardly focused and worshiping
-                community. We also work closely with our sister congregation,
-                Pacto de Gracia to serve the growing Hispanic community of our
-                city.
-              </p>
+              <p className="mb-0 text-justify"></p>
+              <iframe
+                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F113865308643822%2Fvideos%2F2735955189793016%2F&show_text=0&width=560"
+                width="560"
+                height="315"
+                scrolling="no"
+                frameborder="0"
+                allowTransparency="true"
+                allowFullScreen="true"
+              ></iframe>
             </div>
           </div>
         </div>

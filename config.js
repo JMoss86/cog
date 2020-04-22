@@ -8,6 +8,6 @@ module.exports = {
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-casual/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Covenant of Grace Christian Fellowship',
-  subHeading: 'Welcome one and all to',
+  heading: 'Covenant of Grace',
+  subHeading: 'Christian Fellowship',
 };
