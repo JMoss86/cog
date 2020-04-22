@@ -2,8 +2,6 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import about from '../assets/images/about-01.jpg';
-
 const IndexPage = () => (
   <Layout activeLink="schedule">
     <section className="page-section cta">

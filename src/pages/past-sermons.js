@@ -22,15 +22,13 @@ const IndexPage = () => (
             </div>
           </div>
         </div>
-        <div className="media-heading-img">
+        <div className="media-heading-img iframe-container">
           <iframe
             className="intro-img1  mb-3 mb-lg-0 rounded"
-            width="560"
-            height="450"
             src="https://www.youtube.com/embed/videoseries?list=PLNaNnSfcM9Syg0Zyz-gg4JpHGPj3ncpeA"
             frameborder="0"
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
+            allowfullscreen="true"
           ></iframe>
         </div>
       </div>
