@@ -49,15 +49,17 @@ const IndexPage = () => (
                 </span>
               </h2>
               <p className="mb-0 text-justify"></p>
-              <iframe
-                src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F113865308643822%2Fvideos%2F2735955189793016%2F&show_text=0&width=560"
-                width="auto"
-                height="auto"
-                scrolling="no"
-                frameborder="0"
-                allowTransparency="true"
-                allowFullScreen="true"
-              ></iframe>
+              <div className="iframe-container">
+                <iframe
+                  src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2F113865308643822%2Fvideos%2F2735955189793016%2F&show_text=0&width=560"
+                  width="auto"
+                  height="auto"
+                  scrolling="no"
+                  frameborder="0"
+                  allowTransparency="true"
+                  allowFullScreen="true"
+                ></iframe>
+              </div>
             </div>
           </div>
         </div>
