@@ -2,7 +2,7 @@ import React from 'react';
 
 import Layout from '../components/Layout';
 
-import intro from '../assets/images/intro.jpg';
+import intro from '../assets/images/intro1.jpg';
 const IndexPage = () => (
   <Layout activeLink="home">
     <section className="page-section clearfix">
@@ -15,20 +15,22 @@ const IndexPage = () => (
           />
           <div className="intro-text left-0 text-center bg-faded p-5 rounded">
             <h2 className="section-heading mb-4">
-              <span className="section-heading-upper">Fresh Coffee</span>
-              <span className="section-heading-lower">Worth Drinking</span>
+              {/*              <span className="section-heading-upper"></span>*/}
+              <span className="section-heading-lower">In Faith We Gather</span>
             </h2>
-            <p className="mb-3">
-              Every cup of our quality artisan coffee starts with locally
-              sourced, hand picked ingredients. Once you try it, our coffee will
-              be a blissful addition to your everyday morning routine - we
-              guarantee it!
+            <p className="mb-3 text-justify">
+              Covenant of Grace is a congregation of people who love Jesus and
+              are committed to His Kingdom purpose for our lives personally and
+              corporately. We are a multi-cultural and multi-generational body
+              of believers located in North Central Phoenix in an area known
+              locally as Sunnyslope, named for the sunny slopes of the Phoenix
+              Mountain Preserve right outside our back door.
             </p>
-            <div className="intro-button mx-auto">
+            {/*<div className="intro-button mx-auto">
               <a className="btn btn-primary btn-xl" href="/#">
                 Visit Us Today!
               </a>
-            </div>
+</div>*/}
           </div>
         </div>
       </div>
@@ -40,15 +42,17 @@ const IndexPage = () => (
           <div className="col-xl-9 mx-auto">
             <div className="cta-inner text-center rounded">
               <h2 className="section-heading mb-4">
-                <span className="section-heading-upper">Our Promise</span>
-                <span className="section-heading-lower">To You</span>
+                <span className="section-heading-upper">Our Mission</span>
+                {/*<span className="section-heading-lower">To You</span>*/}
               </h2>
-              <p className="mb-0">
-                When you walk into our shop to start your day, we are dedicated
-                to providing you with friendly service, a welcoming atmosphere,
-                and above all else, excellent products made with the highest
-                quality ingredients. If you are not satisfied, please let us
-                know and we will do whatever we can to make things right!
+              <p className="mb-0 text-justify">
+                For many years we have been working in our community, our city,
+                state and also internationally to spread the good news of God’s
+                love and plan of salvation through Jesus Christ, His Son. We are
+                a Spirit filled, bible based, outwardly focused and worshiping
+                community. We also work closely with our sister congregation,
+                Pacto de Gracia to serve the growing Hispanic community of our
+                city.
               </p>
             </div>
           </div>
