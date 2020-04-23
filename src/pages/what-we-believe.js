@@ -11,6 +11,7 @@ import about7 from '../assets/images/about-07.jpg';
 import about8 from '../assets/images/about-08.jpg';
 import about9 from '../assets/images/about-09.jpg';
 import about10 from '../assets/images/about-10.jpg';
+import about12 from '../assets/images/about-12.jpg';
 
 const IndexPage = () => (
   <Layout activeLink="what-we-believe">
@@ -119,6 +120,40 @@ const IndexPage = () => (
                   </span>
                 </h2>
                 <p>
+                  We believe that Jesus Christ is true God who became true man
+                  united in one person. He became human through His miraculous
+                  conception by the Holy Spirit of the virgin Mary. Jesus
+                  Christ, being the only God-man, is the only Savior and
+                  mediator between God and humanity. There is no other name by
+                  which we can and must be saved. He died on the cross for the
+                  salvation of humanity. He arose bodily from the dead on the
+                  third day, and ascended into the presence of God Almighty. (1
+                  Corinthians 15:3-5)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="page-section about-heading">
+      <div className="container">
+        <img
+          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex ml-auto"
+          src={about12}
+          alt=""
+        />
+        <div className="about-heading-content">
+          <div className="row">
+            <div className="col-xl-9 col-lg-10 mx-auto">
+              <div className="bg-faded rounded p-5">
+                <h2 className="section-heading mb-4">
+                  <span className="section-heading-lower">
+                    About the Holy Spirit
+                  </span>
+                </h2>
+                <p>
                   We believe the Holy Spirit is God and equal with the Father
                   and Jesus Christ in being and nature. We believe in the Holy
                   Spirit’s immediate gracious presence and power through His
@@ -138,7 +173,7 @@ const IndexPage = () => (
     <section className="page-section about-heading">
       <div className="container">
         <img
-          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex ml-auto"
+          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex mr-auto"
           src={about6}
           alt=""
         />
@@ -167,7 +202,7 @@ const IndexPage = () => (
     <section className="page-section about-heading">
       <div className="container">
         <img
-          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex mr-auto"
+          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex ml-auto"
           src={about7}
           alt=""
         />
@@ -195,7 +230,7 @@ const IndexPage = () => (
     <section className="page-section about-heading">
       <div className="container">
         <img
-          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex ml-auto"
+          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex mr-auto"
           src={about8}
           alt=""
         />
@@ -226,7 +261,7 @@ const IndexPage = () => (
     <section className="page-section about-heading">
       <div className="container">
         <img
-          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex mr-auto"
+          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex ml-auto"
           src={about9}
           alt=""
         />
@@ -259,7 +294,7 @@ const IndexPage = () => (
     <section className="page-section about-heading">
       <div className="container">
         <img
-          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex ml-auto"
+          className="img-fluid rounded about-heading-img mb-3 mb-lg-0 d-flex mr-auto"
           src={about10}
           alt=""
         />
