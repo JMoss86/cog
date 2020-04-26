@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Covenant of Grace Christian Fellowship', // <title>
-  manifestName: '',
+  manifestName: 'A website by Jonathan Moss',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
