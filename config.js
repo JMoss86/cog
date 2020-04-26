@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: 'Covenant of Grace Christian Fellowship', // <title>
-  manifestName: 'Casual',
+  manifestName: '',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
